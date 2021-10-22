@@ -293,7 +293,7 @@ let butImg = [
 	'apple.png',
 ]
 buts.forEach((item, index) => {
-	item.style.backgroundImage = `url('../img/${butImg[index]}')`
+	item.style.backgroundImage = `url('./img/${butImg[index]}')`
 })
 // 计算中奖结果
 function resultLuck(endIndex) {
